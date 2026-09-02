@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import {
-  ArrowRight, Copy, Check, Download, FileText, Code, Columns,
+  ArrowRight, Copy, Check, Download, FileText, Code, Columns2,
 } from "lucide-react";
 import type { ParsedResume, ATSHealthScore, JobMatchScore, ImprovedResume } from "@/lib/analysis/types";
 
@@ -48,7 +48,7 @@ export default function ComparePanel({
         <Card>
           <CardHeader className="pb-3">
             <CardTitle className="text-sm font-medium flex items-center gap-2">
-              <Columns className="size-4" />
+              <Columns2 className="size-4" />
               Score Comparison
             </CardTitle>
           </CardHeader>
